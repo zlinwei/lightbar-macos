@@ -1,0 +1,17 @@
+.build/
+build/
+.swiftpm/
+.DS_Store
+*.xcuserstate
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Machine-specific evidence stays local.
+docs/*.log
+docs/real-session.txt
+docs/verification*.md
+docs/verification*.json
